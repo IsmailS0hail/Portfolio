@@ -1,40 +1,12 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f4;
-  color: #333;
+  scroll-padding-top: 80px;
 }
-
 header {
-  background-color: #24292e;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
+  background: url('header-bg.jpg') center/cover no-repeat;
 }
-
-main {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 0 20px;
+#skills .card {
+  transition: transform .3s;
 }
-
-h1, h2 {
-  color: #2c3e50;
-}
-
-a {
-  color: #0366d6;
-  text-decoration: none;
-}
-
-.project {
-  margin-bottom: 20px;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #ddd;
-  margin-top: 40px;
+#skills .card:hover {
+  transform: scale(1.05);
 }
