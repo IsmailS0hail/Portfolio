@@ -1,0 +1,23 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-list li::before {
+  content: "✔️ ";
+  color: #0d6efd;
+}
